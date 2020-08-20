@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans:400,700,800|Quicksand:300"
+      rel="stylesheet"
+    />
+    <title>design & develop.</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-container">
+        <header class="left-search">
+          <i class="fas fa-search"></i>
+          <input id="search" type="text" placeholder="Search" />
+        </header>
+        <div class="left-map">
+          <div id="future-content"></div>
+        </div>
+        <div class="left-text">
+          <div class="left-text-container">
+            <div class="triangle">
+              <img src="./images/logo.png" alt="logo" />
+              <h3 id="left-title">design & develop.</h3>
+            </div>
+            <div class="left-text-line"></div>
+            <p>
+              Check out articles for code, gallery for page designs from
+              pinterest, or resources page to see where i like to search for
+              web-related info.
+            </p>
+          </div>
+        </div>
+        <footer class="left-footer">
+          <ul>
+            <li>
+              <a href="https://instagram.com"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://pinterest.com"
+                ><i class="fab fa-pinterest"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://youtube.com"><i class="fab fa-youtube"></i></a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+      <div class="right-container">
+        <header class="right-header" id="top">
+          <i class="far fa-arrow-alt-circle-up scroll-control"></i>
+        </header>
+        <div class="right-article-container">
+          <ul class="articles" id="ulArticles">
+            <li class="article">
+              <div class="right-transition-block"></div>
+              <img src="./images/art-1.png" alt="" />
+              <div class="article-text-wrapper">
+                <h2>Animate.css</h2>
+                <p class="article-desc">
+                  Add marvellous animations with this stylesheet.
+                </p>
+                <div class="article-text">
+                  <p>
+                    Animate.css is an additional stylesheet file that you can
+                    add to your website, that allows you to use pre-made
+                    animations. It's just css, so it won't impact your website
+                    load times as much as another javascript library. To animate
+                    an element, all you have to do is add a class "animated" and
+                    then another class with chosen animation. Animations include
+                    bouncing, flashing, pulsing - all that kind of stuff. Below
+                    you can see a codepen snippet with an example. As you can
+                    see we can later modify those animations with additional css
+                    or javascript, so they are highly customisable and always
+                    tailored to your needs.
+                  </p>
+                  <div class="article-codepen-block">
+                    <p
+                      class="codepen"
+                      data-height="267"
+                      data-theme-id="dark"
+                      data-default-tab="html,result"
+                      data-user="method77"
+                      data-slug-hash="XqddEW"
+                      data-preview="true"
+                      style="
+                        height: 267px;
+                        box-sizing: border-box;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: 2px solid black;
+                        margin: 1em 0;
+                        padding: 1em;
+                      "
+                      data-pen-title="Responsive Text Blocks"
+                    >
+                      <span
+                        >See the Pen
+                        <a href="https://codepen.io/method77/pen/XqddEW/">
+                          Responsive Text Blocks</a
+                        >
+                        by Patryk (<a href="https://codepen.io/method77"
+                          >@method77</a
+                        >) on <a href="https://codepen.io">CodePen</a>.</span
+                      >
+                    </p>
+                    <script
+                      async
+                      src="https://static.codepen.io/assets/embed/ei.js"
+                    ></script>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="article">
+              <div class="right-transition-block"></div>
+              <img src="./images/art-2.png" alt="" />
+              <div class="article-text-wrapper">
+                <h2>Sticky navbars made simple</h2>
+                <p>Let's make a simple animated navbar with JQuery</p>
+                <div class="article-text">
+                  <p>
+                    First of all we need a css setup. Make your navigation bar
+                    fixed to the top of the the page, and add a margin to the
+                    "content" of your website. Both navbar and margin should
+                    have the same height. If we want to animate on certain
+                    trigger we have to add a class that changes some of the
+                    looks. Within the example below it is ".black" class, which
+                    should trigger a color and positioning change on scroll.
+                    When everything is set up we can write our short script. As
+                    you can see we check for scroll event on window and then
+                    fire a function that adds ".black" class whenever scrollTop
+                    returns 0 (which means we are at the top of the page).
+                  </p>
+                  <div class="article-codepen-block">
+                    <p
+                      class="codepen"
+                      data-height="267"
+                      data-theme-id="dark"
+                      data-default-tab="html,result"
+                      data-user="method77"
+                      data-slug-hash="bMpeYX"
+                      data-preview="true"
+                      style="
+                        height: 267px;
+                        box-sizing: border-box;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: 2px solid black;
+                        margin: 1em 0;
+                        padding: 1em;
+                      "
+                      data-pen-title="Responsive Text Blocks"
+                    >
+                      <span
+                        >See the Pen
+                        <a href="https://codepen.io/method77/pen/bMpeYX/">
+                          Responsive Text Blocks</a
+                        >
+                        by Patryk (<a href="https://codepen.io/method77"
+                          >@method77</a
+                        >) on <a href="https://codepen.io">CodePen</a>.</span
+                      >
+                    </p>
+                    <script
+                      async
+                      src="https://static.codepen.io/assets/embed/ei.js"
+                    ></script>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="article">
+              <div class="right-transition-block"></div>
+              <img src="./images/art-3.png" alt="" />
+              <div class="article-text-wrapper">
+                <h2>Glitch animation</h2>
+                <p>Pure css glitch animation</p>
+                <div class="article-text">
+                  <p>
+                    Glitch animation doesn't have to be complicated. In this
+                    case we use css animations. First of all we set up two
+                    images: one as an anchor and the second one to float around.
+                    Image shouldn't be monochromatic, because then we have no
+                    hue values to rotate. After we've selected our background
+                    it's time to add the animation. We use css property called
+                    "animation", after which we specify the animation name,
+                    animation length, repeat etc. In this scenario animation is
+                    simply called "glitch". We then specify whole animation
+                    sequence, using "@keyframes" almost like a selector. Two
+                    points which we have to specify here are 0% and 100%, but to
+                    see somekind of glitchy image we need some more breakpoints.
+                    As you can see every 10% theres a change in positioning
+                    (which simulates screen shake) and also @ 0% and 100% we
+                    have a hue value rotation (which changes colors).
+                  </p>
+                  <div class="article-codepen-block">
+                    <p
+                      class="codepen"
+                      data-height="267"
+                      data-theme-id="dark"
+                      data-default-tab="html,result"
+                      data-user="method77"
+                      data-slug-hash="zWXewO"
+                      data-preview="true"
+                      style="
+                        height: 267px;
+                        box-sizing: border-box;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: 2px solid black;
+                        margin: 1em 0;
+                        padding: 1em;
+                      "
+                      data-pen-title="Responsive Text Blocks"
+                    >
+                      <span
+                        >See the Pen
+                        <a href="https://codepen.io/method77/pen/zWXewO/">
+                          Responsive Text Blocks</a
+                        >
+                        by Patryk (<a href="https://codepen.io/method77"
+                          >@method77</a
+                        >) on <a href="https://codepen.io">CodePen</a>.</span
+                      >
+                    </p>
+                    <script
+                      async
+                      src="https://static.codepen.io/assets/embed/ei.js"
+                    ></script>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <footer class="right-footer" id="down">
+          <i class="far fa-arrow-alt-circle-down scroll-control"></i>
+        </footer>
+      </div>
+    </div>
+    <div class="menu">
+      <div class="menu-burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="menu-links">
+        <li class="link current-page">
+          <a class="link-default" href="index.html"
+            ><i class="fas fa-home"></i><span>Home</span></a
+          >
+        </li>
+        <li class="link">
+          <a class="link-default" href="gallery.html"
+            ><i class="far fa-image"></i><span>Gallery</span></a
+          >
+        </li>
+        <li class="link">
+          <a class="link-default" href="resources.html"
+            ><i class="fas fa-users"></i><span>Resources</span></a
+          >
+        </li>
+        <li class="link">
+          <a class="link-default" href="contact.html"
+            ><i class="fas fa-phone-square"></i><span>Contact</span></a
+          >
+        </li>
+      </ul>
+    </div>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
